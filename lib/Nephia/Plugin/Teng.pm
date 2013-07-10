@@ -6,7 +6,7 @@ use Nephia::DSLModifier;
 use Teng::Schema::Loader;
 use DBI;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 our $TENG;
 our @RUN_SQL;
 
@@ -112,7 +112,7 @@ In this example to create table before plackup.
 
 in controller :
 
-    database_do "CREATE DATABASE IF EXISTS person (id INTEGER, name TEXT, age INTEGE)";
+    database_do "CREATE TABLE IF NOT EXISTS person (id INTEGER, name TEXT, age INTEGER);"
 
     path '/' => sub {
         ...
@@ -134,6 +134,8 @@ it under the same terms as Perl itself.
 =head1 AUTHOR
 
 mackee E<lt>macopy123[attttt]gmai.comE<gt>
+
+ichigotake
 
 =cut
 

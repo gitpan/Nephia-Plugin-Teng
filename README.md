@@ -45,7 +45,7 @@ In this example to create table before plackup.
 
 in controller :
 
-    database_do "CREATE DATABASE IF EXISTS person (id INTEGER, name TEXT, age INTEGE)";
+    database_do "CREATE TABLE IF NOT EXISTS person (id INTEGER, name TEXT, age INTEGER);"
 
     path '/' => sub {
         ...
@@ -67,3 +67,5 @@ it under the same terms as Perl itself.
 # AUTHOR
 
 mackee <macopy123\[attttt\]gmai.com>
+
+ichigotake
