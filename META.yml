@@ -32,18 +32,17 @@ no_index:
 provides:
   Nephia::Plugin::Teng:
     file: lib/Nephia/Plugin/Teng.pm
-    version: 0.02
+    version: 0.03
 requires:
   DBI: 0
-  Nephia: 0.29
-  Nephia::DSLModifier: 0
+  Nephia: 0.31
   Teng: 0.18
   perl: 5.008005
 resources:
   bugtracker: https://github.com/mackee/Nephia-Plugin-Teng/issues
   homepage: https://github.com/mackee/Nephia-Plugin-Teng
   repository: git://github.com/mackee/Nephia-Plugin-Teng.git
-version: 0.02
+version: 0.03
 x_contributors:
   - 'ichigotake <k.wisiiy@gmail.com>'
   - 'mackee <macopy123@gmail.com>'
