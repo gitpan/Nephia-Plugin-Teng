@@ -1,5 +1,8 @@
 Revision history for Perl extension Nephia-Plugin-Teng
 
+0.04 2013-09-30T14:33:48Z
+    - !!NOT COMPATIBLE VOSON JUMP!! support to Nephia-0.80 or latter
+
 0.03 2013-07-13T01:43:53Z
 
     - support for Nephia-0.31 higher

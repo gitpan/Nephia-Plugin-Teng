@@ -5,8 +5,10 @@ META.json
 README.md
 cpanfile
 lib/Nephia/Plugin/Teng.pm
+minil.toml
 t/00_compile.t
-t/01_teng.t
+t/01_method.t
+t/02_controller.t
 t/nephia-test_app/app.psgi
 t/nephia-test_app/cpanfile
 t/nephia-test_app/etc/conf/common.pl
